@@ -1,11 +1,12 @@
 # 使用 Poetry 來管理Python套件
 
-相較於Pip , Poetry 有更方便的功能
+- 相較於Pip , Poetry 有更方便的功能
 
 ## 安裝 poetry
 
 避免安裝 Poetry 至專案虛擬環境，
 安裝 Poetry 的時候，一定將它安裝在一個「專用」的虛擬環境。
+
 
 ### official installer
 
@@ -83,12 +84,14 @@ Bash:
 - 移至專案目錄底下，依序執行指令
 
 Bash:
+```
 poetry shell
-poetry install        #因為是舊專案，不需要init
-
+```
+```
+poetry install        
+```
 
 ## 參考文件
 
-docs/Git基本教學.png       (截圖來源:https://youtu.be/mCzptNYsE30?t=23)
-[再見了 pip！最佳 Python 套件管理器——Poetry 完全入門指南](https://blog.kyomind.tw/python-poetry/)。  
-
+[Git基本操作](https://youtu.be/mCzptNYsE30?t=23)
+[再見了 pip！最佳 Python 套件管理器——Poetry 完全入門指南](https://blog.kyomind.tw/python-poetry/)
