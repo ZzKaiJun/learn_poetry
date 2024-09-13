@@ -69,13 +69,25 @@ poetry shell
 
 Bash:
 
-- 安裝pyautogui套件
+- 安裝django套件
 ```
-poetry add pyautogui  
+poetry add django  
 ```
-- 安裝flask套件
+- 安裝django套件版本為 >=4.2.9 且 <5.0.0（允許 4.2.9 及以上版本，但不包括 5.0.0 )
 ```
-poetry add flask      
+poetry add django@^4.2.9      
+```
+- 安裝django套件版本只會接受 4.2.x 系列的更新
+```
+poetry add django@~4.2.9      
+```
+- 安裝django套件版本為 >=4.2.9（沒有上限）
+```
+poetry add "django>=4.2.9"      
+```
+- 安裝django套件版本為 4.2.9
+```
+poetry add django==4.2.9     
 ```
 
 ### 更新lock:
